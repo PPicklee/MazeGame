@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Main app theme -->
+    <style name="Theme.FantasyForestMaze" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Splash screen background color -->
+        <item name="android:windowSplashScreenBackground">@color/black</item>
+
+        <!-- Splash screen icon -->
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/fantasy_maze_icon</item>
+
+        <!-- Splash screen animation duration (optional, in milliseconds) -->
+        <item name="android:windowSplashScreenAnimationDuration">400</item>
+    </style>
+</resources>
